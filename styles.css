@@ -21,7 +21,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #1F2937;
-  min-height: 440px;
+  padding-bottom: 20px;
 }
 
 .headers {
@@ -135,7 +135,7 @@ body{
  }
 
 
- 
+
 /* Quote Section */
 
 .quote-section {
@@ -180,6 +180,7 @@ body{
   padding: 45px 110px;
   border-radius: 8px;
   gap: 120px;
+  flex-shrink: 0;
 }
 
 .main-msg {
